@@ -1,0 +1,29 @@
+# .gitignore for TP1 project
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore data and output folders (large files)
+TP1/data/
+TP1/outputs/
+
+# Ignore report outputs (if generated)
+TP1/report/*.pdf
+TP1/report/*.docx
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore Jupyter and IPython files
+.ipynb_checkpoints/
+*.ipynb
+
+# Uncomment below if you want to keep empty folders
+# !data/.gitkeep
+# !outputs/.gitkeep
+venv/
