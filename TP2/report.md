@@ -3,7 +3,7 @@
 
 ## 1. Smoke test (GPU + Diffusers)
 
-Le script `smoke_test.py` a été exécuté avec succès sur GPU (ou CPU si indisponible). L'image générée (`outputs/smoke.png`) :
+Le script `smoke_test.py` a été exécuté avec succès sur CPU. L'image générée :
 
 ![smoke.png](outputs/smoke.png)
 
