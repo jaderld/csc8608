@@ -13,7 +13,7 @@
 
 ## 2. Jeu de données : enregistrement et vérification audio
 
-- Fichier audio créé : `TP3/data/call_01.wav` (~1 min, mono, 16 kHz)
+- Fichier audio créé : `TP3/data/call_01.wav` (1 min, mono, 16 kHz)
 - Vérification :
   - Durée : 1:01
   - Sample rate : 16000 Hz

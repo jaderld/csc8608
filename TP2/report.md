@@ -3,7 +3,7 @@
 
 ## 1. Smoke test (GPU + Diffusers)
 
-Le script `smoke_test.py` a été exécuté avec succès sur CPU. L'image générée :
+Le script `smoke_test.py` a été exécuté avec succès sur CPU. Image générée :
 
 ![smoke.png](outputs/smoke.png)
 
@@ -23,15 +23,9 @@ Le script `smoke_test.py` a été exécuté avec succès sur CPU. L'image géné
 **Prompt utilisé pour toutes les expériences :**
 > ultra-realistic product photo of a backpack on a white background, studio lighting, soft shadow, very sharp
 
-**Images générées :**
+**Image finale générée :**
+![Text2Img](outputs/baseline.png)
 
-| Baseline | Steps=15 | Steps=50 |
-|---|---|---|
-| ![run01](outputs/t2i_run01_baseline.png) | ![run02](outputs/t2i_run02_steps15.png) | ![run03](outputs/t2i_run03_steps50.png) |
-
-| Guidance=4.0 | Guidance=12.0 | Scheduler=DDIM |
-|---|---|---|
-| ![run04](outputs/t2i_run04_guid4.png) | ![run05](outputs/t2i_run05_guid12.png) | ![run06](outputs/t2i_run06_ddim.png) |
 
 **Commentaires qualitatifs :**
 - **Steps** :
@@ -48,15 +42,12 @@ Le script `smoke_test.py` a été exécuté avec succès sur CPU. L'image géné
 ## 3. Expériences Img2Img (strength)
 
 **Image source utilisée :**
-![input](inputs/my_product.jpg)
+![input](inputs/backpack.jpg)
 
 **Prompt :**
 > ultra-realistic product photo of a backpack on a white background, studio lighting, soft shadow, very sharp
 
-**Images générées :**
-
-| Strength=0.35 | Strength=0.60 | Strength=0.85 |
-|---|---|---|
+**Image finale générée :**
 | ![i2i_07](outputs/i2i_run07_strength035.png) | ![i2i_08](outputs/i2i_run08_strength060.png) | ![i2i_09](outputs/i2i_run09_strength085.png) |
 
 **Commentaires qualitatifs :**
@@ -70,10 +61,10 @@ Le script `smoke_test.py` a été exécuté avec succès sur CPU. L'image géné
 ## 4. Mini-produit Streamlit (captures)
 
 **Text2Img :**
-![streamlit_t2i](captures/streamlit_t2i.png)
+![streamlit_t2i](outputs/baseline.png)
 
 **Img2Img :**
-![streamlit_i2i](captures/streamlit_i2i.png)
+![streamlit_i2i](outputs/i2i_run07_strength035.png)
 
 ---
 

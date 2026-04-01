@@ -3,7 +3,7 @@ import os
 import torch
 from diffusers import StableDiffusionPipeline
 
-MODEL_ID = "stabilityai/stable-diffusion-2-1"
+MODEL_ID = "runwayml/stable-diffusion-v1-5"
 
 def main() -> None:
     device = "cuda" if torch.cuda.is_available() else "cpu"

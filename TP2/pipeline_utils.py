@@ -10,7 +10,7 @@ from diffusers import (
 )
 
 # Choisissez un modèle par défaut
-DEFAULT_MODEL_ID = "stabilityai/stable-diffusion-2-1"  # ex: "stabilityai/stable-diffusion-2-1"
+DEFAULT_MODEL_ID = "runwayml/stable-diffusion-v1-5"
 
 SCHEDULERS: Dict[str, object] = {
     "DDIM": DDIMScheduler,
